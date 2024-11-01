@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rank Fam Scrp</title>
+    <style>
+        body {
+            background-color: #1f1f1f; /* Warna abu-abu */
+            font-family: Arial, sans-serif;
+        }
+        table {
+            width: 80%;
+            margin: 20px auto;
+            border-collapse: collapse;
+            
+        }
+        th, td {
+            border: 1px #1f1f1f;
+            padding: 10px;
+            
+            
+        }
+        th {
+            
+            color: #a0a1a3;
+        }
+        img {
+            width: 50px;
+            height: 50px;
+            border-radius: 30px;
+        }
+        h2{
+        color: #ffecf5;
+        }
+        td{
+        color: white;
+        }
+      h6{
+      color: black;
+      background-color : black;
+      }
+       
+        
+    </style>
+</head>
+<body>
+			
+<center>
+<h2 style="text-align: center;">Top 5 Rank Fam Strite City</h2>
+<center>
+			
+
+    <style>
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: white;
+            min-width: 160px;
+            border: 1px solid #ccc;
+            z-index: 1;
+            max-height: 200px; /* batas tinggi scroll */
+            overflow-y: auto; /* scrollbar jika terlalu banyak konten */
+        }
+
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #303135;
+        }
+
+        .dropdown-button {
+            background-color: #303135; /* Warna tombol */
+            color: white; /* Warna teks */
+            
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        .dropdown-button:focus {
+            outline: none; /* Hapus outline saat fokus */
+        }
+    </style>
+</head>
+<body>
+
+<div class="dropdown">
+    <button class="dropdown-button" id="dropdownButton">Musim ▼</button>
+    <div class="dropdown-content" id="dropdownContent">
+    				  
+    				  <a href="#">2024</a>
+        <a href="#">2023</a>
+        <a href="#">2022</a>
+        <a href="#">2021</a>
+        <a href="#">2020</a>
+        <a href="#">2019</a>
+        <a href="#">2018</a>
+        <a href="#">2017</a>
+        <a href="#">2016</a>
+        <a href="#">2015</a>
+        <a href="#">2014</a>
+        <a href="#">2013</a>
+        <a href="#">2012</a>
+        <a href="#">2011</a>
+        <a href="#">2010</a>
+        <!-- Tambahkan tahun sesuai kebutuhan -->
+    </div>
+</div>
+
+<script>
+    const dropdownButton = document.getElementById('dropdownButton');
+    const dropdownContent = document.getElementById('dropdownContent');
+
+    dropdownButton.addEventListener('click', function() {
+        // Toggle display of dropdown content
+        if (dropdownContent.style.display === "block") {
+            dropdownContent.style.display = "none";
+        } else {
+            dropdownContent.style.display = "block";
+        }
+    });
+
+    // Jika ingin menutup dropdown ketika mengklik di luar dropdown
+    window.addEventListener('click', function(event) {
+        if (!event.target.matches('.dropdown-button')) {
+            if (dropdownContent.style.display === "block") {
+                dropdownContent.style.display = "none";
+            }
+        }
+    });
+</script>
+
+</body>
+</html>
+
+
+<table>
+    <thead>
+        <tr>
+            <th>Fam</th>
+            <th></th>
+            <th>P</th>
+            <th>S</th>
+            <th>M</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+        			
+            <td>
+            			<img src="https://thumbs2.imgbox.com/a0/23/audl5zcx_t.jpg" alt="Logo Klub 1"></td>
+            <td>O'block</td>
+            <td>14</td>
+            <td>48</td>
+            <td>5</td>
+        </tr>
+        <h6>.</h6>
+        <tr>
+            <td><img src="https://thumbs2.imgbox.com/e9/58/JLNNOuOY_t.jpg" alt="Logo Klub 2"></td>
+            <td>Elpatron</td>
+            <td>12</td>
+            <td>36</td>
+            <td>5</td>
+              
+              
+        </tr>
+         
+        <tr>
+            <td><img src="https://thumbs2.imgbox.com/b0/ff/YUvfgQNb_t.jpg" alt="Logo Klub 4"></td>
+            <td>Antiban</td>
+            <td>9</td>
+            <td>27</td>
+            <td>4</td>
+        </tr>
+        <tr>
+        				
+            <td><img src="https://thumbs2.imgbox.com/d3/ee/GPcHc3TY_t.jpg" alt="Logo Klub 3"></td>
+            <td>Villain</td>
+            <td>9</td>
+            <td>21</td>
+            <td>4</td>
+          
+        </tr>
+       
+           <tr>
+            <td><img src="https://thumbs2.imgbox.com/64/b5/5MhWaty9_t.jpg" alt="Logo Klub 4"></td>
+            <td>Getherz</td>
+            <td>3</td>
+            <td>6</td>
+            <td>2</td>
+        </tr>
+        <!-- Tambahkan baris tambahan sesuai kebutuhan -->
+    </tbody>
+</table>
+
+</body>
+</html>
+
+   <h6>.</h6>
